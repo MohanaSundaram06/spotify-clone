@@ -1,0 +1,316 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spotify Clone</title>
+  </head>
+  <body>
+    <main class="d-flex">
+      <!--********************************-->
+      <!-- nav  -->
+      <!--********************************-->
+      <nav class="text-white nav-bar d-flex flex-column">
+        <div>
+          <img
+            class="mt-2 ms-4 mb-3"
+            height="40px"
+            src="./Image/Spotify logo.svg"
+            alt="logo"
+          />
+        </div>
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- nav section 1 -->
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <div class="ms-2 p-2 d-flex flex-column">
+          <div>
+            <img class="icon-img" src="./Image/homelogo.svg" alt="Home" />
+            <p>Home</p>
+          </div>
+          <div>
+            <img class="icon-img" src="./Image/searchLogo.svg" alt="Search" />
+            <p>Search</p>
+          </div>
+          <div>
+            <img
+              class="icon-img"
+              src="./Image/library.svg"
+              alt="Your Library"
+            />
+            <p>Your Library</p>
+          </div>
+        </div>
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- nav section 2 -->
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <div class="ms-2 p-2 d-flex flex-column">
+          <div>
+            <div style="background-color: #fff" class="icon-holder">
+              <img src="./Image/plus.svg" alt="plus" />
+            </div>
+            <p>Create Playlist</p>
+          </div>
+          <div>
+            <img class="icon-img" src="./Image/heart.svg" alt="heart" />
+            <p>Liked Songs</p>
+          </div>
+
+          <div>
+            <div style="background-color: #004638" class="icon-holder">
+              <img
+                height="16px"
+                width="19px"
+                src="./Image/Group.svg"
+                alt="Group"
+              />
+            </div>
+            <p>Your Episodes</p>
+          </div>
+        </div>
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- nav section 3 -->
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <div class="nav-fav ms-2 p-2 d-flex flex-column">
+          <div><p>FAV</p></div>
+          <div><p>Daily Mix 1</p></div>
+          <div><p>Discover Weekly</p></div>
+          <div><p>Malayalam</p></div>
+          <div><p>Dance / Electronix Mix</p></div>
+          <div><p>EDM / Popular</p></div>
+        </div>
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- nav section 4 -->
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <div class="ms-2 p-2">
+          <div>
+            <img class="icon-img" src="./Image/downArrow.svg" alt="Install" />
+            <p>Install App</p>
+          </div>
+        </div>
+      </nav>
+      <!--********************************-->
+      <!-- hero section  -->
+      <!--********************************-->
+
+      <section class="hero-section d-flex flex-column">
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- top -->
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+
+        <div class="d-flex p-2 text-white align-items-center">
+          <div class="d-flex gap-3">
+            <div class="arrow-icon">
+              <img height="18px" src="Image/left-arrow.svg" alt="left-arrow" />
+            </div>
+            <div class="arrow-icon">
+              <img height="18px" src="Image/rightarrow.svg" alt="rightarrow" />
+            </div>
+          </div>
+          <div
+            class="ms-auto user d-flex gap-2 rounded-pill align-items-center pe-2"
+          >
+            <img height="30px" src="Image/user.svg" alt="user" />
+            <p>Angel</p>
+            <img width="15px" src="Image/user-arrow.svg" alt="user-arrow" />
+          </div>
+        </div>
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- Good morning -->
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <div class="text-white Good-mrng ps-4 mt-3">
+          <div>
+            <h1>Good morning</h1>
+          </div>
+          <div class="d-flex align-items-center mt-3">
+            <div class="d-flex align-items-center gap-3">
+              <img src="Image/big-heart.svg" alt="liked" />
+              <p>Liked Songs</p>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <img src="Image/guitar.svg" alt="Neffex Playlist" />
+              <p>Neffex Playlist</p>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <img src="Image/anime.svg" alt="K/ DA" />
+              <p>K/ DA</p>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <img src="Image/dance.svg" alt="Dance / Electronic Mix" />
+              <p>Dance / Electronic Mix</p>
+            </div>
+          </div>
+        </div>
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <!-- Shows -->
+        <!--$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <div class="text-white shows ps-4 mt-3">
+          <div class="d-flex justify-content-between">
+            <h1>Shows you might like</h1>
+            <p class="blqt me-4">SEE ALL</p>
+          </div>
+          <div>
+            <div>
+              <img src="Image/img1.svg" alt="image" />
+              <p>Weekly Motivatio...</p>
+              <div class="blqt">Ben Ina Scott</div>
+            </div>
+            <div>
+              <img src="Image/img2.svg" alt="image" />
+              <p>MEDITATION SELF</p>
+              <div class="blqt">Ibn Hussain Aleen</div>
+            </div>
+            <div>
+              <img src="Image/img3.svg" alt="image" />
+              <p>Words beyond act...</p>
+              <div class="blqt">Samuel Scott</div>
+            </div>
+            <div>
+              <img src="Image/img4.svg" alt="image" />
+              <p>The Alexa Show</p>
+              <div class="blqt">Adriana Tom</div>
+            </div>
+            <div>
+              <img src="Image/img1.svg" alt="image" />
+              <p>Weekly Motivatio...</p>
+              <div class="blqt">Ben Ina Scott</div>
+            </div>
+            <div>
+              <img src="Image/img2.svg" alt="image" />
+              <p>MEDITATION SELF</p>
+              <div class="blqt">Ibn Hussain Aleen</div>
+            </div>
+            <div>
+              <img src="Image/img3.svg" alt="image" />
+              <p>Words beyond act...</p>
+              <div class="blqt">Samuel Scott</div>
+            </div>
+            <div>
+              <img src="Image/img4.svg" alt="image" />
+              <p>The Alexa Show</p>
+              <div class="blqt">Adriana Tom</div>
+            </div>
+            <div>
+              <img src="Image/img1.svg" alt="image" />
+              <p>Weekly Motivatio...</p>
+              <div class="blqt">Ben Ina Scott</div>
+            </div>
+            <div>
+              <img src="Image/img2.svg" alt="image" />
+              <p>MEDITATION SELF</p>
+              <div class="blqt">Ibn Hussain Aleen</div>
+            </div>
+            <div>
+              <img src="Image/img3.svg" alt="image" />
+              <p>Words beyond act...</p>
+              <div class="blqt">Samuel Scott</div>
+            </div>
+            <div>
+              <img src="Image/img4.svg" alt="image" />
+              <p>The Alexa Show</p>
+              <div class="blqt">Adriana Tom</div>
+            </div>
+            <div>
+              <img src="Image/img1.svg" alt="image" />
+              <p>Weekly Motivatio...</p>
+              <div class="blqt">Ben Ina Scott</div>
+            </div>
+            <div>
+              <img src="Image/img2.svg" alt="image" />
+              <p>MEDITATION SELF</p>
+              <div class="blqt">Ibn Hussain Aleen</div>
+            </div>
+            <div>
+              <img src="Image/img3.svg" alt="image" />
+              <p>Words beyond act...</p>
+              <div class="blqt">Samuel Scott</div>
+            </div>
+            <div>
+              <img src="Image/img4.svg" alt="image" />
+              <p>The Alexa Show</p>
+              <div class="blqt">Adriana Tom</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--********************************-->
+    <!-- play section  -->
+    <!--********************************-->
+    <footer>
+      <section
+        class="play-section d-flex justify-content-between align-items-center px-3 py-1"
+      >
+        <div
+          class="d-flex align-items-center justify-content-around text-white gap-2"
+        >
+          <img
+            class="f-img"
+            height="50px"
+            src="./Image/playImage.svg"
+            alt="Image"
+          />
+          <div>
+            <p>Dreaming On</p>
+            <div class="blqt">NEFFEX</div>
+          </div>
+          <img height="15x" src="./Image/bx_bxs-heart.svg" alt="" />
+        </div>
+        <div class="d-flex flex-column justify-content-between flex-wrap">
+          <!-- play icons -->
+          <div class="d-flex justify-content-center align-items-center gap-2">
+            <img
+              height="14px"
+              src="./Image/raphael_shuffle.svg"
+              alt="shuffle"
+            />
+            <img
+              height="20px"
+              src="./Image/bx_bx-skip-previous.svg"
+              alt="prev"
+            />
+            <img height="26px" src="./Image/gridicons_play.svg" alt="play" />
+            <img height="20px" src="./Image/play_next.svg" alt="next" />
+            <img height="12px" src="./Image/loop.svg" alt="loop" />
+          </div>
+          <div class="d-flex align-items-center justify-content-around">
+            <div class="blqt">2.11</div>
+            <div class="timer">
+              <div></div>
+            </div>
+            <div class="blqt">2.42</div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center gap-2">
+          <img height="15px" src="./Image/ph_microphone-stage.svg" alt="mic" />
+          <img height="15px" src="Image/carbon_query-queue.svg" alt="queue" />
+          <img height="15px" src="Image/carbon_laptop.svg" alt="System" />
+          <img height="15px" src="Image/light_speaker.svg" alt="speaker" />
+          <div class="volume"></div>
+          <img height="15px" src="Image/bigSpeaker.svg" alt="speaker" />
+        </div>
+      </section>
+      <div
+        class="bottom d-flex gap-2 align-items-center justify-content-end p-1"
+      >
+        <img height="10px" src="./Image/smallSpeaker.svg" alt="speaker" />
+        <p>Listening on ASUS-ROG-G531GT</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
